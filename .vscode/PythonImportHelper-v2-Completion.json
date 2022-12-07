@@ -373,7 +373,7 @@
         "kind": 6,
         "importPath": "models.engine.file_storage",
         "description": "models.engine.file_storage",
-        "peekOfCode": "class FileStorage:\n    \"\"\"This class manages storage of hbnb models in JSON format\"\"\"\n    __file_path = 'file.json'\n    __objects = {}\n    def all(self):\n        \"\"\"Returns a dictionary of models currently in storage\"\"\"\n        return FileStorage.__objects\n    def new(self, obj):\n        \"\"\"Adds new object to storage dictionary\"\"\"\n        self.all().update({obj.to_dict()['__class__'] + '.' + obj.id: obj})",
+        "peekOfCode": "class FileStorage:\n    \"\"\"This class manages storage of hbnb models in JSON format\"\"\"\n    __file_path = 'file.json'\n    __objects = {}\n    def all(self, cls=None):\n        \"\"\"\n        returns the list of objects of one type of class\n        \"\"\"\n        if cls is not None:\n            if type(cls) == str:",
         "detail": "models.engine.file_storage",
         "documentation": {}
     },
