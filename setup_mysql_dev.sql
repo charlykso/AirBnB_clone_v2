@@ -1,6 +1,6 @@
 -- Prepare MySQL server
 -- Create database
-CREATE DATABASE IF NO EXISTS hbnb_dev_db;
+CREATE DATABASE IF NOT EXISTS hbnb_dev_db;
 -- create a new user
 CREATE USER IF NOT EXISTS 'hbnb_dev'@'localhost' IDENTIFIED BY 'hbnb_dev_pwd';
 -- grant previlages to user
