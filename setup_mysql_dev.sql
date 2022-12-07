@@ -10,4 +10,3 @@ USE performance_schema;
 -- grant select on performance_schema to user hbnb_dev
 GRANT SELECT ON performance_schema.* TO 'hbnb_dev'@'localhost';
 FLUSH PRIVILEGES;
-SET FOREIGN_KEY_CHECKS=1;
