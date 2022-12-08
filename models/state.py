@@ -8,25 +8,25 @@ from sqlalchemy.orm import relationship
 
 
 class State(BaseModel, Base):
-    """ 
+    """
     State inherits from BaseModel and Base
     __tablename__ : represents the table name, states
     name : represents a column containing a string (128 characters)
-           can't be null
+    can't be null
     """
-    
+
     __tablename__ = "states"
     if getenv("HBNB_TYPE_STORAGE") == 'db':
         name = Column(String(128), nullable=False)
-        cities = relationship("City", cascade="all, delete", 
+        cities = relationship("City", cascade="all, delete",
                               backref='state')
     else:
         @property
         def cities(self):
             """
             FileStorage relationship between State and City.
-            getter attribute cities that returns 
-            the list of City instances with state_id 
+            getter attribute cities that returns
+            the list of City instances with state_id
             equals to the current State.id
             """
             from models import storage

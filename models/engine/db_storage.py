@@ -21,6 +21,7 @@ all_classes = {"City": City,
                "Review": Review,
                "Amenity": Amenity}
 
+
 class DBStorage:
     """
     Handles Database engine
@@ -49,9 +50,9 @@ class DBStorage:
 
     def all(self, cls=None):
         """
-        query on the current database session (self.__session) 
+        query on the current database session (self.__session)
         all objects depending of the class name (argument cls).
-        if cls=None, query all types of objects 
+        if cls=None, query all types of objects
         (User, State, City, Amenity, Place and Review).
         this method must return a dictionary: (like FileStorage)
         """
@@ -89,7 +90,7 @@ class DBStorage:
 
     def delete(self, obj=None):
         """
-        delete from the current database 
+        delete from the current database
         session obj if not None
         """
         if obj is not None:
@@ -98,12 +99,11 @@ class DBStorage:
     def reload(self):
         """
         - create all tables in the database (feature of SQLAlchemy)
-        	(WARNING: all classes who inherit from Base must be 
-        	imported before calling Base.metadata.create_all(engine)
-         
-        - create the current database session (self.__session) 
-        from the engine (self.__engine) by using a sessionmaker 
-        - the option expire_on_commit must be set to False ; 
+        (WARNING: all classes who inherit from Base must be
+        imported before calling Base.metadata.create_all(engine)
+        - create the current database session (self.__session)
+        from the engine (self.__engine) by using a sessionmaker
+        - the option expire_on_commit must be set to False ;
         and scoped_session - to make sure your Session is thread-safe
         """
         Base.metadata.create_all(self.__engine)
