@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ Console Module """
 import cmd
+import shlex
 import sys
 from models.base_model import BaseModel
 from models.__init__ import storage
@@ -118,7 +119,7 @@ class HBNBCommand(cmd.Cmd):
         if not args:
             print("** class name missing **")
             return
-        my_args = args.split(" ")
+        my_args = shlex.split(args)
         new_arg = eval(my_args[0])()
         if args not in HBNBCommand.classes:
             # print(new_arg)
