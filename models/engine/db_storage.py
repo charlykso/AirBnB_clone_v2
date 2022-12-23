@@ -2,7 +2,7 @@
 """Defines the DBStorage class"""
 
 from os import getenv
-from sqlalchemy import create_engine
+from sqlalchemy import (create_engine)
 from sqlalchemy.orm import sessionmaker, scoped_session
 from models.base_model import BaseModel, Base
 from models.user import User
@@ -34,7 +34,6 @@ class DBStorage:
 
     def __init__(self):
         """ Initialises the DBStorage instance """
-
         self.__engine = create_engine('mysql+msqldb://{}:{}@{}/{}'
                                       .format(
                                           getenv('HBNB_MYSQL_USER'),
