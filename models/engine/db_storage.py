@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-DB Storage
-"""
+"""Defines the DBStorage class"""
 
 from os import getenv
 from sqlalchemy import create_engine
@@ -22,21 +20,20 @@ all_classes = {"City": City,
                "Amenity": Amenity}
 
 
+
 class DBStorage:
-    """
-    Handles Database engine
-    Attributes:
-        __engine: engine for the database
-        __session: session of the database
+    """ Represents the DB engine 
+
+        Attributes:
+                __engine (): engine of the db
+                __session (): session of the db
+
     """
     __engine = None
     __session = None
 
     def __init__(self):
-        """
-        Constructor
-        create engine for database
-        """
+        """ Initialises the DBStorage instance """
 
         self.__engine = create_engine('mysql+msqldb://{}:{}@{}/{}'
                                       .format(
@@ -111,3 +108,6 @@ class DBStorage:
                                        expire_on_commit=False)
         Session = scoped_session(session_factory)
         self.__session = Session()
+
+    def close(self):
+        self.__session.close()

@@ -39,6 +39,14 @@ class Place(BaseModel, Base):
                              viewonly=False)
     amenity_ids = []
 
+    def __init__(self, *args, **kwargs):
+        """ Initialises the State class
+            Args:
+                args: Not used
+                kwargs: dictionary format of the class
+        """
+        super().__init__(*args, **kwargs)
+
     if getenv("HBNB_TYPE_STORAGE", None) != 'db':
         @property
         def reviews(self):

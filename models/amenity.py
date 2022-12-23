@@ -13,3 +13,11 @@ class Amenity(BaseModel, Base):
     name = Column(String(128), nullable=False)
     place_amenities = relationship("Place", secondary="place_amenity",
                                    viewonly=False)
+
+    def __init__(self, *args, **kwargs):
+        """ Initialises the State class
+            Args:
+                args: Not used
+                kwargs: dictionary format of the class
+        """
+        super().__init__(*args, **kwargs)

@@ -17,3 +17,11 @@ class User(BaseModel, Base):
     last_name = Column(String(128), nullable=False)
     places = relationship("Place", cascade="all, delete", backref="user")
     reviews = relationship("Review", cascade="all, delete", backref="user")
+
+    def __init__(self, *args, **kwargs):
+        """ Initialises the State class
+            Args:
+                args: Not used
+                kwargs: dictionary format of the class
+        """
+        super().__init__(*args, **kwargs)

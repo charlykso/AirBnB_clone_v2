@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """ State Module for HBNB project """
+<<<<<<< HEAD
 
 from os import getenv
 from models.base_model import BaseModel, Base
@@ -8,14 +9,14 @@ from sqlalchemy.orm import relationship
 
 
 class State(BaseModel, Base):
-    """
-    State inherits from BaseModel and Base
-    __tablename__ : represents the table name, states
-    name : represents a column containing a string (128 characters)
-    can't be null
+    """ State class 
+
+        Attributes:
+                    __tablename__ : name of the table
+                    name (sqlalchemy String): name of the state
+
     """
 
-    __tablename__ = "states"
     if getenv("HBNB_TYPE_STORAGE") == 'db':
         name = Column(String(128), nullable=False)
         cities = relationship("City", cascade="all, delete",
@@ -39,3 +40,13 @@ class State(BaseModel, Base):
                 if city.state_id == self.id:
                     city_list.append(city)
             return city_list
+
+    def __init__(self, *args, **kwargs):
+        """ Initialises the State class
+
+            Args:
+                args: Not used
+                kwargs: dictionary format of the class
+
+        """
+        super().__init__(*args, **kwargs)
