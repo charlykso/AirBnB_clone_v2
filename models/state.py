@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """ State Module for HBNB project """
+from os import getenv
 from models.base_model import BaseModel
 from models.base_model import Base
 from sqlalchemy.orm import relationship
@@ -24,6 +25,16 @@ class State(BaseModel, Base):
             """ Get a list if all ralated City objects. """
             city_list = []
             for city in list(storage.all(City).values()):
-                if city.state_id = self.id:
+                if city.state_id == self.id:
                     city_list.append(city)
             return city_list
+
+    def __init__(self, *args, **kwargs):
+        """ Initialises the State class
+
+            Args:
+                args: Not used
+                kwargs: dictionary format of the class
+
+        """
+        super().__init__(*args, **kwargs)

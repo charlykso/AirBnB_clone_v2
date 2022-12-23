@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 """This module defines a base class for all models in our hbnb clone"""
+from models import storage
 import uuid
 from datetime import datetime
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, Integer, DateTime
+from sqlalchemy import Column, Integer, DateTime, String
 
 
-Base = declaractive_base()
+Base = declarative_base()
 
 
 class BaseModel:
@@ -37,6 +38,8 @@ class BaseModel:
                                                      '%Y-%m-%dT%H:%M:%S.%f')
             del kwargs['__class__']
             self.__dict__.update(kwargs)
+
+        storage.new(self)
 
     def __str__(self):
         """Returns a string representation of the instance"""

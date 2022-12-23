@@ -16,3 +16,11 @@ class Place(BaseModel):
     latitude = 0.0
     longitude = 0.0
     amenity_ids = []
+
+    def __init__(self, *args, **kwargs):
+        """ Initialises the State class
+            Args:
+                args: Not used
+                kwargs: dictionary format of the class
+        """
+        super().__init__(*args, **kwargs)
