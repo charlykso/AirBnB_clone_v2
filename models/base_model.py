@@ -2,7 +2,6 @@
 """This module defines a base class for all models in our hbnb clone"""
 from models import storage
 import uuid
-import models
 from datetime import datetime
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, DateTime, String
@@ -37,7 +36,6 @@ class BaseModel:
                     value = datetime.strptime(value, "%Y-%m-%dT%H:%M:%S.%f")
                 if key != "__class__":
                     setattr(self, key, value)
-
         storage.new(self)
 
     def __str__(self):
