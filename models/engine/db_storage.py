@@ -12,13 +12,6 @@ from models.review import Review
 from models.place import Place
 from models.amenity import Amenity
 
-all_classes = {"City": City,
-               "State": State,
-               "Place": Place,
-               "User": User,
-               "Review": Review,
-               "Amenity": Amenity}
-
 
 
 class DBStorage:
@@ -29,12 +22,19 @@ class DBStorage:
                 __session (): session of the db
 
     """
+    all_classes = {"City": City,
+               "State": State,
+               "Place": Place,
+               "User": User,
+               "Review": Review,
+               "Amenity": Amenity}
+
     __engine = None
     __session = None
 
     def __init__(self):
         """ Initialises the DBStorage instance """
-        self.__engine = create_engine('mysql+msqldb://{}:{}@{}/{}'
+        self.__engine = create_engine('mysql+mysqldb://{}:{}@{}/{}'
                                       .format(
                                           getenv('HBNB_MYSQL_USER'),
                                           getenv('HBNB_MYSQL_PWD'),
@@ -57,7 +57,7 @@ class DBStorage:
         query = []
 
         if cls:
-            for name, value in all_classes.values():
+            for name, value in self.all_classes.items():
                 if name == cls:
                     query = self.__session.query(value)
                     for obj in query:
@@ -65,7 +65,7 @@ class DBStorage:
                         return_dict[key] = obj
             return return_dict
         else:
-            for name, value in all_classes.values():
+            for name, value in self.all_classes.items():
                 query = self.__session.query(value)
                 for obj in query:
                     key = name + '.' + obj.id
