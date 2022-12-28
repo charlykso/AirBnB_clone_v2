@@ -1,83 +1,924 @@
 [
     {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "getenv",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "getenv",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "getenv",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "getenv",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Float",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "scoped_session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "isExtraImport": true,
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models.user",
+        "description": "models.user",
+        "isExtraImport": true,
+        "detail": "models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models.user",
+        "description": "models.user",
+        "isExtraImport": true,
+        "detail": "models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models.user",
+        "description": "models.user",
+        "isExtraImport": true,
+        "detail": "models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models.user",
+        "description": "models.user",
+        "isExtraImport": true,
+        "detail": "models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models.user",
+        "description": "models.user",
+        "isExtraImport": true,
+        "detail": "models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models.user",
+        "description": "models.user",
+        "isExtraImport": true,
+        "detail": "models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models.user",
+        "description": "models.user",
+        "isExtraImport": true,
+        "detail": "models.user",
+        "documentation": {}
+    },
+    {
+        "label": "City",
+        "importPath": "models.city",
+        "description": "models.city",
+        "isExtraImport": true,
+        "detail": "models.city",
+        "documentation": {}
+    },
+    {
+        "label": "City",
+        "importPath": "models.city",
+        "description": "models.city",
+        "isExtraImport": true,
+        "detail": "models.city",
+        "documentation": {}
+    },
+    {
+        "label": "City",
+        "importPath": "models.city",
+        "description": "models.city",
+        "isExtraImport": true,
+        "detail": "models.city",
+        "documentation": {}
+    },
+    {
+        "label": "City",
+        "importPath": "models.city",
+        "description": "models.city",
+        "isExtraImport": true,
+        "detail": "models.city",
+        "documentation": {}
+    },
+    {
+        "label": "City",
+        "importPath": "models.city",
+        "description": "models.city",
+        "isExtraImport": true,
+        "detail": "models.city",
+        "documentation": {}
+    },
+    {
+        "label": "City",
+        "importPath": "models.city",
+        "description": "models.city",
+        "isExtraImport": true,
+        "detail": "models.city",
+        "documentation": {}
+    },
+    {
+        "label": "City",
+        "importPath": "models.city",
+        "description": "models.city",
+        "isExtraImport": true,
+        "detail": "models.city",
+        "documentation": {}
+    },
+    {
+        "label": "City",
+        "importPath": "models.city",
+        "description": "models.city",
+        "isExtraImport": true,
+        "detail": "models.city",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "importPath": "models.state",
+        "description": "models.state",
+        "isExtraImport": true,
+        "detail": "models.state",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "importPath": "models.state",
+        "description": "models.state",
+        "isExtraImport": true,
+        "detail": "models.state",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "importPath": "models.state",
+        "description": "models.state",
+        "isExtraImport": true,
+        "detail": "models.state",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "importPath": "models.state",
+        "description": "models.state",
+        "isExtraImport": true,
+        "detail": "models.state",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "importPath": "models.state",
+        "description": "models.state",
+        "isExtraImport": true,
+        "detail": "models.state",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "importPath": "models.state",
+        "description": "models.state",
+        "isExtraImport": true,
+        "detail": "models.state",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "importPath": "models.state",
+        "description": "models.state",
+        "isExtraImport": true,
+        "detail": "models.state",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "importPath": "models.state",
+        "description": "models.state",
+        "isExtraImport": true,
+        "detail": "models.state",
+        "documentation": {}
+    },
+    {
+        "label": "Review",
+        "importPath": "models.review",
+        "description": "models.review",
+        "isExtraImport": true,
+        "detail": "models.review",
+        "documentation": {}
+    },
+    {
+        "label": "Review",
+        "importPath": "models.review",
+        "description": "models.review",
+        "isExtraImport": true,
+        "detail": "models.review",
+        "documentation": {}
+    },
+    {
+        "label": "Review",
+        "importPath": "models.review",
+        "description": "models.review",
+        "isExtraImport": true,
+        "detail": "models.review",
+        "documentation": {}
+    },
+    {
+        "label": "Review",
+        "importPath": "models.review",
+        "description": "models.review",
+        "isExtraImport": true,
+        "detail": "models.review",
+        "documentation": {}
+    },
+    {
+        "label": "Review",
+        "importPath": "models.review",
+        "description": "models.review",
+        "isExtraImport": true,
+        "detail": "models.review",
+        "documentation": {}
+    },
+    {
+        "label": "Review",
+        "importPath": "models.review",
+        "description": "models.review",
+        "isExtraImport": true,
+        "detail": "models.review",
+        "documentation": {}
+    },
+    {
+        "label": "Review",
+        "importPath": "models.review",
+        "description": "models.review",
+        "isExtraImport": true,
+        "detail": "models.review",
+        "documentation": {}
+    },
+    {
+        "label": "Place",
+        "importPath": "models.place",
+        "description": "models.place",
+        "isExtraImport": true,
+        "detail": "models.place",
+        "documentation": {}
+    },
+    {
+        "label": "Place",
+        "importPath": "models.place",
+        "description": "models.place",
+        "isExtraImport": true,
+        "detail": "models.place",
+        "documentation": {}
+    },
+    {
+        "label": "Place",
+        "importPath": "models.place",
+        "description": "models.place",
+        "isExtraImport": true,
+        "detail": "models.place",
+        "documentation": {}
+    },
+    {
+        "label": "Place",
+        "importPath": "models.place",
+        "description": "models.place",
+        "isExtraImport": true,
+        "detail": "models.place",
+        "documentation": {}
+    },
+    {
+        "label": "Place",
+        "importPath": "models.place",
+        "description": "models.place",
+        "isExtraImport": true,
+        "detail": "models.place",
+        "documentation": {}
+    },
+    {
+        "label": "Place",
+        "importPath": "models.place",
+        "description": "models.place",
+        "isExtraImport": true,
+        "detail": "models.place",
+        "documentation": {}
+    },
+    {
+        "label": "Amenity",
+        "importPath": "models.amenity",
+        "description": "models.amenity",
+        "isExtraImport": true,
+        "detail": "models.amenity",
+        "documentation": {}
+    },
+    {
+        "label": "Amenity",
+        "importPath": "models.amenity",
+        "description": "models.amenity",
+        "isExtraImport": true,
+        "detail": "models.amenity",
+        "documentation": {}
+    },
+    {
+        "label": "Amenity",
+        "importPath": "models.amenity",
+        "description": "models.amenity",
+        "isExtraImport": true,
+        "detail": "models.amenity",
+        "documentation": {}
+    },
+    {
+        "label": "Amenity",
+        "importPath": "models.amenity",
+        "description": "models.amenity",
+        "isExtraImport": true,
+        "detail": "models.amenity",
+        "documentation": {}
+    },
+    {
+        "label": "Amenity",
+        "importPath": "models.amenity",
+        "description": "models.amenity",
+        "isExtraImport": true,
+        "detail": "models.amenity",
+        "documentation": {}
+    },
+    {
+        "label": "Amenity",
+        "importPath": "models.amenity",
+        "description": "models.amenity",
+        "isExtraImport": true,
+        "detail": "models.amenity",
+        "documentation": {}
+    },
+    {
+        "label": "Amenity",
+        "importPath": "models.amenity",
+        "description": "models.amenity",
+        "isExtraImport": true,
+        "detail": "models.amenity",
+        "documentation": {}
+    },
+    {
         "label": "json",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "json",
         "description": "json",
         "detail": "json",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "models.base_model",
-        "description": "models.base_model",
-        "isExtraImport": true,
-        "detail": "models.base_model",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "models.base_model",
-        "description": "models.base_model",
-        "isExtraImport": true,
-        "detail": "models.base_model",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "models.base_model",
-        "description": "models.base_model",
-        "isExtraImport": true,
-        "detail": "models.base_model",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "models.base_model",
-        "description": "models.base_model",
-        "isExtraImport": true,
-        "detail": "models.base_model",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "models.base_model",
-        "description": "models.base_model",
-        "isExtraImport": true,
-        "detail": "models.base_model",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "models.base_model",
-        "description": "models.base_model",
-        "isExtraImport": true,
-        "detail": "models.base_model",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "models.base_model",
-        "description": "models.base_model",
-        "isExtraImport": true,
-        "detail": "models.base_model",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "models.base_model",
-        "description": "models.base_model",
-        "isExtraImport": true,
-        "detail": "models.base_model",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "models.base_model",
-        "description": "models.base_model",
-        "isExtraImport": true,
-        "detail": "models.base_model",
         "documentation": {}
     },
     {
@@ -90,19 +931,19 @@
         "documentation": {}
     },
     {
-        "label": "UUID",
-        "importPath": "uuid",
-        "description": "uuid",
-        "isExtraImport": true,
-        "detail": "uuid",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
+        "label": "models",
         "kind": 6,
         "isExtraImport": true,
+        "importPath": "models",
+        "description": "models",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
+        "isExtraImport": true,
         "detail": "datetime",
         "documentation": {}
     },
@@ -112,6 +953,88 @@
         "description": "datetime",
         "isExtraImport": true,
         "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "pep8",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pep8",
+        "description": "pep8",
+        "detail": "pep8",
+        "documentation": {}
+    },
+    {
+        "label": "MySQLdb",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "MySQLdb",
+        "description": "MySQLdb",
+        "detail": "MySQLdb",
         "documentation": {}
     },
     {
@@ -124,182 +1047,211 @@
         "documentation": {}
     },
     {
-        "label": "models",
-        "kind": 6,
+        "label": "DBStorage",
+        "importPath": "models.engine.db_storage",
+        "description": "models.engine.db_storage",
         "isExtraImport": true,
-        "importPath": "models",
-        "description": "models",
-        "detail": "models",
+        "detail": "models.engine.db_storage",
         "documentation": {}
     },
     {
-        "label": "storage",
-        "importPath": "models",
-        "description": "models",
+        "label": "DBStorage",
+        "importPath": "models.engine.db_storage",
+        "description": "models.engine.db_storage",
         "isExtraImport": true,
-        "detail": "models",
+        "detail": "models.engine.db_storage",
         "documentation": {}
     },
     {
-        "label": "os",
-        "kind": 6,
+        "label": "DBStorage",
+        "importPath": "models.engine.db_storage",
+        "description": "models.engine.db_storage",
         "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
+        "detail": "models.engine.db_storage",
         "documentation": {}
     },
     {
-        "label": "test_basemodel",
-        "importPath": "tests.test_models.test_base_model",
-        "description": "tests.test_models.test_base_model",
+        "label": "DBStorage",
+        "importPath": "models.engine.db_storage",
+        "description": "models.engine.db_storage",
         "isExtraImport": true,
-        "detail": "tests.test_models.test_base_model",
+        "detail": "models.engine.db_storage",
         "documentation": {}
     },
     {
-        "label": "test_basemodel",
-        "importPath": "tests.test_models.test_base_model",
-        "description": "tests.test_models.test_base_model",
+        "label": "DBStorage",
+        "importPath": "models.engine.db_storage",
+        "description": "models.engine.db_storage",
         "isExtraImport": true,
-        "detail": "tests.test_models.test_base_model",
+        "detail": "models.engine.db_storage",
         "documentation": {}
     },
     {
-        "label": "test_basemodel",
-        "importPath": "tests.test_models.test_base_model",
-        "description": "tests.test_models.test_base_model",
+        "label": "DBStorage",
+        "importPath": "models.engine.db_storage",
+        "description": "models.engine.db_storage",
         "isExtraImport": true,
-        "detail": "tests.test_models.test_base_model",
+        "detail": "models.engine.db_storage",
         "documentation": {}
     },
     {
-        "label": "test_basemodel",
-        "importPath": "tests.test_models.test_base_model",
-        "description": "tests.test_models.test_base_model",
+        "label": "DBStorage",
+        "importPath": "models.engine.db_storage",
+        "description": "models.engine.db_storage",
         "isExtraImport": true,
-        "detail": "tests.test_models.test_base_model",
+        "detail": "models.engine.db_storage",
         "documentation": {}
     },
     {
-        "label": "test_basemodel",
-        "importPath": "tests.test_models.test_base_model",
-        "description": "tests.test_models.test_base_model",
+        "label": "DBStorage",
+        "importPath": "models.engine.db_storage",
+        "description": "models.engine.db_storage",
         "isExtraImport": true,
-        "detail": "tests.test_models.test_base_model",
+        "detail": "models.engine.db_storage",
         "documentation": {}
     },
     {
-        "label": "test_basemodel",
-        "importPath": "tests.test_models.test_base_model",
-        "description": "tests.test_models.test_base_model",
+        "label": "FileStorage",
+        "importPath": "models.engine.file_storage",
+        "description": "models.engine.file_storage",
         "isExtraImport": true,
-        "detail": "tests.test_models.test_base_model",
+        "detail": "models.engine.file_storage",
         "documentation": {}
     },
     {
-        "label": "Amenity",
-        "importPath": "models.amenity",
-        "description": "models.amenity",
+        "label": "FileStorage",
+        "importPath": "models.engine.file_storage",
+        "description": "models.engine.file_storage",
         "isExtraImport": true,
-        "detail": "models.amenity",
+        "detail": "models.engine.file_storage",
         "documentation": {}
     },
     {
-        "label": "Amenity",
-        "importPath": "models.amenity",
-        "description": "models.amenity",
+        "label": "FileStorage",
+        "importPath": "models.engine.file_storage",
+        "description": "models.engine.file_storage",
         "isExtraImport": true,
-        "detail": "models.amenity",
+        "detail": "models.engine.file_storage",
         "documentation": {}
     },
     {
-        "label": "City",
-        "importPath": "models.city",
-        "description": "models.city",
+        "label": "FileStorage",
+        "importPath": "models.engine.file_storage",
+        "description": "models.engine.file_storage",
         "isExtraImport": true,
-        "detail": "models.city",
+        "detail": "models.engine.file_storage",
         "documentation": {}
     },
     {
-        "label": "City",
-        "importPath": "models.city",
-        "description": "models.city",
+        "label": "FileStorage",
+        "importPath": "models.engine.file_storage",
+        "description": "models.engine.file_storage",
         "isExtraImport": true,
-        "detail": "models.city",
+        "detail": "models.engine.file_storage",
         "documentation": {}
     },
     {
-        "label": "Place",
-        "importPath": "models.place",
-        "description": "models.place",
+        "label": "FileStorage",
+        "importPath": "models.engine.file_storage",
+        "description": "models.engine.file_storage",
         "isExtraImport": true,
-        "detail": "models.place",
+        "detail": "models.engine.file_storage",
         "documentation": {}
     },
     {
-        "label": "Place",
-        "importPath": "models.place",
-        "description": "models.place",
+        "label": "FileStorage",
+        "importPath": "models.engine.file_storage",
+        "description": "models.engine.file_storage",
         "isExtraImport": true,
-        "detail": "models.place",
+        "detail": "models.engine.file_storage",
         "documentation": {}
     },
     {
-        "label": "Review",
-        "importPath": "models.review",
-        "description": "models.review",
+        "label": "FileStorage",
+        "importPath": "models.engine.file_storage",
+        "description": "models.engine.file_storage",
         "isExtraImport": true,
-        "detail": "models.review",
+        "detail": "models.engine.file_storage",
         "documentation": {}
     },
     {
-        "label": "Review",
-        "importPath": "models.review",
-        "description": "models.review",
+        "label": "FileStorage",
+        "importPath": "models.engine.file_storage",
+        "description": "models.engine.file_storage",
         "isExtraImport": true,
-        "detail": "models.review",
+        "detail": "models.engine.file_storage",
         "documentation": {}
     },
     {
-        "label": "State",
-        "importPath": "models.state",
-        "description": "models.state",
+        "label": "FileStorage",
+        "importPath": "models.engine.file_storage",
+        "description": "models.engine.file_storage",
         "isExtraImport": true,
-        "detail": "models.state",
+        "detail": "models.engine.file_storage",
         "documentation": {}
     },
     {
-        "label": "State",
-        "importPath": "models.state",
-        "description": "models.state",
+        "label": "Session",
+        "importPath": "sqlalchemy.orm.session",
+        "description": "sqlalchemy.orm.session",
         "isExtraImport": true,
-        "detail": "models.state",
+        "detail": "sqlalchemy.orm.session",
         "documentation": {}
     },
     {
-        "label": "User",
-        "importPath": "models.user",
-        "description": "models.user",
+        "label": "Engine",
+        "importPath": "sqlalchemy.engine.base",
+        "description": "sqlalchemy.engine.base",
         "isExtraImport": true,
-        "detail": "models.user",
+        "detail": "sqlalchemy.engine.base",
         "documentation": {}
     },
     {
-        "label": "User",
-        "importPath": "models.user",
-        "description": "models.user",
+        "label": "OperationalError",
+        "importPath": "sqlalchemy.exc",
+        "description": "sqlalchemy.exc",
         "isExtraImport": true,
-        "detail": "models.user",
+        "detail": "sqlalchemy.exc",
         "documentation": {}
     },
     {
-        "label": "pep8",
-        "kind": 6,
+        "label": "OperationalError",
+        "importPath": "sqlalchemy.exc",
+        "description": "sqlalchemy.exc",
         "isExtraImport": true,
-        "importPath": "pep8",
-        "description": "pep8",
-        "detail": "pep8",
+        "detail": "sqlalchemy.exc",
+        "documentation": {}
+    },
+    {
+        "label": "OperationalError",
+        "importPath": "sqlalchemy.exc",
+        "description": "sqlalchemy.exc",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.exc",
+        "documentation": {}
+    },
+    {
+        "label": "OperationalError",
+        "importPath": "sqlalchemy.exc",
+        "description": "sqlalchemy.exc",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.exc",
+        "documentation": {}
+    },
+    {
+        "label": "OperationalError",
+        "importPath": "sqlalchemy.exc",
+        "description": "sqlalchemy.exc",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.exc",
+        "documentation": {}
+    },
+    {
+        "label": "OperationalError",
+        "importPath": "sqlalchemy.exc",
+        "description": "sqlalchemy.exc",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.exc",
         "documentation": {}
     },
     {
@@ -327,28 +1279,21 @@
         "documentation": {}
     },
     {
-        "label": "DBStorage",
-        "importPath": "models.engine.db_storage",
-        "description": "models.engine.db_storage",
-        "isExtraImport": true,
-        "detail": "models.engine.db_storage",
-        "documentation": {}
-    },
-    {
-        "label": "FileStorage",
-        "importPath": "models.engine.file_storage",
-        "description": "models.engine.file_storage",
-        "isExtraImport": true,
-        "detail": "models.engine.file_storage",
-        "documentation": {}
-    },
-    {
         "label": "cmd",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "cmd",
         "description": "cmd",
         "detail": "cmd",
+        "documentation": {}
+    },
+    {
+        "label": "shlex",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shlex",
+        "description": "shlex",
+        "detail": "shlex",
         "documentation": {}
     },
     {
@@ -369,6 +1314,24 @@
         "documentation": {}
     },
     {
+        "label": "DBStorage",
+        "kind": 6,
+        "importPath": "models.engine.db_storage",
+        "description": "models.engine.db_storage",
+        "peekOfCode": "class DBStorage:\n    \"\"\"\n    Handles Database engine\n    Attributes:\n        __engine: engine for the database\n        __session: session of the database\n    \"\"\"\n    __engine = None\n    __session = None\n    def __init__(self):",
+        "detail": "models.engine.db_storage",
+        "documentation": {}
+    },
+    {
+        "label": "all_classes",
+        "kind": 5,
+        "importPath": "models.engine.db_storage",
+        "description": "models.engine.db_storage",
+        "peekOfCode": "all_classes = {\"City\": City,\n               \"State\": State,\n               \"Place\": Place,\n               \"User\": User,\n               \"Review\": Review,\n               \"Amenity\": Amenity}\nclass DBStorage:\n    \"\"\"\n    Handles Database engine\n    Attributes:",
+        "detail": "models.engine.db_storage",
+        "documentation": {}
+    },
+    {
         "label": "FileStorage",
         "kind": 6,
         "importPath": "models.engine.file_storage",
@@ -382,7 +1345,7 @@
         "kind": 6,
         "importPath": "models.amenity",
         "description": "models.amenity",
-        "peekOfCode": "class Amenity(BaseModel):\n    name = \"\"",
+        "peekOfCode": "class Amenity(BaseModel, Base):\n    \"\"\"\n    Amenity inherits from BaseModel and Base\n    \"\"\"\n    __tablename__ = \"amenities\"\n    name = Column(String(128), nullable=False)\n    place_amenities = relationship(\"Place\", secondary=\"place_amenity\",\n                                   viewonly=False)",
         "detail": "models.amenity",
         "documentation": {}
     },
@@ -391,7 +1354,16 @@
         "kind": 6,
         "importPath": "models.base_model",
         "description": "models.base_model",
-        "peekOfCode": "class BaseModel:\n    \"\"\"A base class for all hbnb models\"\"\"\n    def __init__(self, *args, **kwargs):\n        \"\"\"Instatntiates a new model\"\"\"\n        if not kwargs:\n            from models import storage\n            self.id = str(uuid.uuid4())\n            self.created_at = datetime.now()\n            self.updated_at = datetime.now()\n            storage.new(self)",
+        "peekOfCode": "class BaseModel:\n    \"\"\"A base class for all hbnb models\"\"\"\n    id = Column(String(60), primary_key=True, nullable=False)\n    created_at = Column(DateTime, nullable=False, default=datetime.utcnow())\n    updated_at = Column(DateTime, nullable=False, default=datetime.utcnow())\n    def __init__(self, *args, **kwargs):\n        \"\"\"Instatntiates a new model\"\"\"\n        if not kwargs:\n            from models import storage\n            self.id = str(uuid.uuid4())",
+        "detail": "models.base_model",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "models.base_model",
+        "description": "models.base_model",
+        "peekOfCode": "Base = declarative_base()\nclass BaseModel:\n    \"\"\"A base class for all hbnb models\"\"\"\n    id = Column(String(60), primary_key=True, nullable=False)\n    created_at = Column(DateTime, nullable=False, default=datetime.utcnow())\n    updated_at = Column(DateTime, nullable=False, default=datetime.utcnow())\n    def __init__(self, *args, **kwargs):\n        \"\"\"Instatntiates a new model\"\"\"\n        if not kwargs:\n            from models import storage",
         "detail": "models.base_model",
         "documentation": {}
     },
@@ -400,7 +1372,7 @@
         "kind": 6,
         "importPath": "models.city",
         "description": "models.city",
-        "peekOfCode": "class City(BaseModel):\n    \"\"\" The city class, contains state ID and name \"\"\"\n    state_id = \"\"\n    name = \"\"",
+        "peekOfCode": "class City(BaseModel, Base):\n    \"\"\"\n    City inherits from BaseModel and Base\n    __tablename__: represents the table name, cities\n    name :  represents a column containing a string (128 characters)\n            can’t be null\n    state_id :  represents a column containing a string (60 characters)\n                can’t be null\n                is a foreign key to states.id\n    \"\"\"",
         "detail": "models.city",
         "documentation": {}
     },
@@ -409,7 +1381,25 @@
         "kind": 6,
         "importPath": "models.place",
         "description": "models.place",
-        "peekOfCode": "class Place(BaseModel):\n    \"\"\" A place to stay \"\"\"\n    city_id = \"\"\n    user_id = \"\"\n    name = \"\"\n    description = \"\"\n    number_rooms = 0\n    number_bathrooms = 0\n    max_guest = 0\n    price_by_night = 0",
+        "peekOfCode": "class Place(BaseModel, Base):\n    \"\"\" Place inherits from BaseModel and Base\n    \"\"\"\n    __tablename__ = \"places\"\n    city_id = Column(String(60), ForeignKey(\"cities.id\"), nullable=False)\n    user_id = Column(String(60), ForeignKey('users.id'), nullable=False)\n    name = Column(String(128), nullable=False)\n    description = Column(String(1024))\n    number_rooms = Column(Integer, default=0, nullable=False)\n    number_bathrooms = Column(Integer, default=0, nullable=False)",
+        "detail": "models.place",
+        "documentation": {}
+    },
+    {
+        "label": "metadata",
+        "kind": 5,
+        "importPath": "models.place",
+        "description": "models.place",
+        "peekOfCode": "metadata = Base.metadata\nplace_amenity = Table('place_amenity', metadata,\n                      Column('place_id', String(60),\n                             ForeignKey('places.id'),\n                             primary_key=True, nullable=False),\n                      Column('amenity_id', String(60),\n                             ForeignKey('amenities.id'),\n                             primary_key=True, nullable=False))\nclass Place(BaseModel, Base):\n    \"\"\" Place inherits from BaseModel and Base",
+        "detail": "models.place",
+        "documentation": {}
+    },
+    {
+        "label": "place_amenity",
+        "kind": 5,
+        "importPath": "models.place",
+        "description": "models.place",
+        "peekOfCode": "place_amenity = Table('place_amenity', metadata,\n                      Column('place_id', String(60),\n                             ForeignKey('places.id'),\n                             primary_key=True, nullable=False),\n                      Column('amenity_id', String(60),\n                             ForeignKey('amenities.id'),\n                             primary_key=True, nullable=False))\nclass Place(BaseModel, Base):\n    \"\"\" Place inherits from BaseModel and Base\n    \"\"\"",
         "detail": "models.place",
         "documentation": {}
     },
@@ -418,7 +1408,7 @@
         "kind": 6,
         "importPath": "models.review",
         "description": "models.review",
-        "peekOfCode": "class Review(BaseModel):\n    \"\"\" Review classto store review information \"\"\"\n    place_id = \"\"\n    user_id = \"\"\n    text = \"\"",
+        "peekOfCode": "class Review(BaseModel, Base):\n    \"\"\" Review inherits from BaseModel and Base\n    \"\"\"\n    __tablename__ = \"reviews\"\n    text = Column(String(1024), nullable=False)\n    place_id = Column(String(60), ForeignKey('places.id'), nullable=False)\n    user_id = Column(String(60), ForeignKey('users.id'), nullable=False)",
         "detail": "models.review",
         "documentation": {}
     },
@@ -427,7 +1417,7 @@
         "kind": 6,
         "importPath": "models.state",
         "description": "models.state",
-        "peekOfCode": "class State(BaseModel):\n    \"\"\" State class \"\"\"\n    name = \"\"",
+        "peekOfCode": "class State(BaseModel, Base):\n    \"\"\"\n    State inherits from BaseModel and Base\n    __tablename__ : represents the table name, states\n    name : represents a column containing a string (128 characters)\n    can't be null\n    \"\"\"\n    __tablename__ = \"states\"\n    if getenv(\"HBNB_TYPE_STORAGE\") == 'db':\n        name = Column(String(128), nullable=False)",
         "detail": "models.state",
         "documentation": {}
     },
@@ -436,79 +1426,88 @@
         "kind": 6,
         "importPath": "models.user",
         "description": "models.user",
-        "peekOfCode": "class User(BaseModel):\n    \"\"\"This class defines a user by various attributes\"\"\"\n    email = ''\n    password = ''\n    first_name = ''\n    last_name = ''",
+        "peekOfCode": "class User(BaseModel, Base):\n    \"\"\"This class defines a user by various attributes\n    __tablename__\n    email, password, first_name and last_name\n    \"\"\"\n    __tablename__ = \"users\"\n    email = Column(String(128), nullable=False)\n    password = Column(String(128), nullable=False)\n    first_name = Column(String(128), nullable=False)\n    last_name = Column(String(128), nullable=False)",
         "detail": "models.user",
         "documentation": {}
     },
     {
-        "label": "test_fileStorage",
+        "label": "TestDBStorage",
+        "kind": 6,
+        "importPath": "tests.test_models.test_engine.test_db_storage",
+        "description": "tests.test_models.test_engine.test_db_storage",
+        "peekOfCode": "class TestDBStorage(unittest.TestCase):\n    \"\"\"Unittests for testing the DBStorage class.\"\"\"\n    @classmethod\n    def setUpClass(cls):\n        \"\"\"DBStorage testing setup.\n        Instantiate new DBStorage.\n        Fill DBStorage test session with instances of all classes.\n        \"\"\"\n        if type(models.storage) == DBStorage:\n            cls.storage = DBStorage()",
+        "detail": "tests.test_models.test_engine.test_db_storage",
+        "documentation": {}
+    },
+    {
+        "label": "TestFileStorage",
         "kind": 6,
         "importPath": "tests.test_models.test_engine.test_file_storage",
         "description": "tests.test_models.test_engine.test_file_storage",
-        "peekOfCode": "class test_fileStorage(unittest.TestCase):\n    \"\"\" Class to test the file storage method \"\"\"\n    def setUp(self):\n        \"\"\" Set up test environment \"\"\"\n        del_list = []\n        for key in storage._FileStorage__objects.keys():\n            del_list.append(key)\n        for key in del_list:\n            del storage._FileStorage__objects[key]\n    def tearDown(self):",
+        "peekOfCode": "class TestFileStorage(unittest.TestCase):\n    \"\"\"Unittests for testing the FileStorage class.\"\"\"\n    @classmethod\n    def setUpClass(cls):\n        \"\"\"FileStorage testing setup.\n        Temporarily renames any existing file.json.\n        Resets FileStorage objects dictionary.\n        Creates instances of all class types for testing.\n        \"\"\"\n        try:",
         "detail": "tests.test_models.test_engine.test_file_storage",
         "documentation": {}
     },
     {
-        "label": "test_Amenity",
+        "label": "TestAmenity",
         "kind": 6,
         "importPath": "tests.test_models.test_amenity",
         "description": "tests.test_models.test_amenity",
-        "peekOfCode": "class test_Amenity(test_basemodel):\n    \"\"\" \"\"\"\n    def __init__(self, *args, **kwargs):\n        \"\"\" \"\"\"\n        super().__init__(*args, **kwargs)\n        self.name = \"Amenity\"\n        self.value = Amenity\n    def test_name2(self):\n        \"\"\" \"\"\"\n        new = self.value()",
+        "peekOfCode": "class TestAmenity(unittest.TestCase):\n    \"\"\"Unittests for testing the Amenity class.\"\"\"\n    @classmethod\n    def setUpClass(cls):\n        \"\"\"Amenity testing setup.\n        Temporarily renames any existing file.json.\n        Resets FileStorage objects dictionary.\n        Creates FileStorage, DBStorage and Amenity instances for testing.\n        \"\"\"\n        try:",
         "detail": "tests.test_models.test_amenity",
         "documentation": {}
     },
     {
-        "label": "test_basemodel",
+        "label": "TestBaseModel",
         "kind": 6,
         "importPath": "tests.test_models.test_base_model",
         "description": "tests.test_models.test_base_model",
-        "peekOfCode": "class test_basemodel(unittest.TestCase):\n    \"\"\" \"\"\"\n    def __init__(self, *args, **kwargs):\n        \"\"\" \"\"\"\n        super().__init__(*args, **kwargs)\n        self.name = 'BaseModel'\n        self.value = BaseModel\n    def setUp(self):\n        \"\"\" \"\"\"\n        pass",
+        "peekOfCode": "class TestBaseModel(unittest.TestCase):\n    \"\"\"Unittests for testing the BaseModel class.\"\"\"\n    @classmethod\n    def setUpClass(cls):\n        \"\"\"BaseModel testing setup.\n        Temporarily renames any existing file.json.\n        Resets FileStorage objects dictionary.\n        Creates a BaseModel instance for testing.\n        \"\"\"\n        try:",
         "detail": "tests.test_models.test_base_model",
         "documentation": {}
     },
     {
-        "label": "test_City",
+        "label": "TestCity",
         "kind": 6,
         "importPath": "tests.test_models.test_city",
         "description": "tests.test_models.test_city",
-        "peekOfCode": "class test_City(test_basemodel):\n    \"\"\" \"\"\"\n    def __init__(self, *args, **kwargs):\n        \"\"\" \"\"\"\n        super().__init__(*args, **kwargs)\n        self.name = \"City\"\n        self.value = City\n    def test_state_id(self):\n        \"\"\" \"\"\"\n        new = self.value()",
+        "peekOfCode": "class TestCity(unittest.TestCase):\n    \"\"\"Unittests for testing the City class.\"\"\"\n    @classmethod\n    def setUpClass(cls):\n        \"\"\"City testing setup.\n        Temporarily renames any existing file.json.\n        Resets FileStorage objects dictionary.\n        Creates FileStorage, DBStorage, City and State instances for testing.\n        \"\"\"\n        try:",
         "detail": "tests.test_models.test_city",
         "documentation": {}
     },
     {
-        "label": "test_Place",
+        "label": "TestPlace",
         "kind": 6,
         "importPath": "tests.test_models.test_place",
         "description": "tests.test_models.test_place",
-        "peekOfCode": "class test_Place(test_basemodel):\n    \"\"\" \"\"\"\n    def __init__(self, *args, **kwargs):\n        \"\"\" \"\"\"\n        super().__init__(*args, **kwargs)\n        self.name = \"Place\"\n        self.value = Place\n    def test_city_id(self):\n        \"\"\" \"\"\"\n        new = self.value()",
+        "peekOfCode": "class TestPlace(unittest.TestCase):\n    \"\"\"Unittests for testing the Place class.\"\"\"\n    @classmethod\n    def setUpClass(cls):\n        \"\"\"Place testing setup.\n        Temporarily renames any existing file.json.\n        Resets FileStorage objects dictionary.\n        Creates FileStorage, DBStorage and Place instances for testing.\n        \"\"\"\n        try:",
         "detail": "tests.test_models.test_place",
         "documentation": {}
     },
     {
-        "label": "test_review",
+        "label": "TestReview",
         "kind": 6,
         "importPath": "tests.test_models.test_review",
         "description": "tests.test_models.test_review",
-        "peekOfCode": "class test_review(test_basemodel):\n    \"\"\" \"\"\"\n    def __init__(self, *args, **kwargs):\n        \"\"\" \"\"\"\n        super().__init__(*args, **kwargs)\n        self.name = \"Review\"\n        self.value = Review\n    def test_place_id(self):\n        \"\"\" \"\"\"\n        new = self.value()",
+        "peekOfCode": "class TestReview(unittest.TestCase):\n    \"\"\"Unittests for testing the Review class.\"\"\"\n    @classmethod\n    def setUpClass(cls):\n        \"\"\"Review testing setup.\n        Temporarily renames any existing file.json.\n        Resets FileStorage objects dictionary.\n        Creates FileStorage, DBStorage and Review instances for testing.\n        \"\"\"\n        try:",
         "detail": "tests.test_models.test_review",
         "documentation": {}
     },
     {
-        "label": "test_state",
+        "label": "TestState",
         "kind": 6,
         "importPath": "tests.test_models.test_state",
         "description": "tests.test_models.test_state",
-        "peekOfCode": "class test_state(test_basemodel):\n    \"\"\" \"\"\"\n    def __init__(self, *args, **kwargs):\n        \"\"\" \"\"\"\n        super().__init__(*args, **kwargs)\n        self.name = \"State\"\n        self.value = State\n    def test_name3(self):\n        \"\"\" \"\"\"\n        new = self.value()",
+        "peekOfCode": "class TestState(unittest.TestCase):\n    \"\"\"Unittests for testing the State class.\"\"\"\n    @classmethod\n    def setUpClass(cls):\n        \"\"\"State testing setup.\n        Temporarily renames any existing file.json.\n        Resets FileStorage objects dictionary.\n        Creates FileStorage, DBStorage and State instances for testing.\n        \"\"\"\n        try:",
         "detail": "tests.test_models.test_state",
         "documentation": {}
     },
     {
-        "label": "test_User",
+        "label": "TestUser",
         "kind": 6,
         "importPath": "tests.test_models.test_user",
         "description": "tests.test_models.test_user",
-        "peekOfCode": "class test_User(test_basemodel):\n    \"\"\" \"\"\"\n    def __init__(self, *args, **kwargs):\n        \"\"\" \"\"\"\n        super().__init__(*args, **kwargs)\n        self.name = \"User\"\n        self.value = User\n    def test_first_name(self):\n        \"\"\" \"\"\"\n        new = self.value()",
+        "peekOfCode": "class TestUser(unittest.TestCase):\n    \"\"\"Unittests for testing the User class.\"\"\"\n    @classmethod\n    def setUpClass(cls):\n        \"\"\"User testing setup.\n        Temporarily renames any existing file.json.\n        Resets FileStorage objects dictionary.\n        Creates FileStorage, DBStorage and User instances for testing.\n        \"\"\"\n        try:",
         "detail": "tests.test_models.test_user",
         "documentation": {}
     },

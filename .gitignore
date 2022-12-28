@@ -1,3 +1,2 @@
 file.json
-__pycache__/
-*.pyc
+fabfile.py
