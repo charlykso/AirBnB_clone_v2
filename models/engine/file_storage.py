@@ -12,6 +12,14 @@ class FileStorage:
         """
         returns the list of objects of one type of class
         """
+        from models.base_model import BaseModel
+        from models.user import User
+        from models.place import Place
+        from models.state import State
+        from models.city import City
+        from models.amenity import Amenity
+        from models.review import Review
+
         if cls is not None:
             if type(cls) == str:
                 cls = eval(cls)
