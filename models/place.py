@@ -8,16 +8,6 @@ from os import getenv
 from models.review import Review
 from models.amenity import Amenity
 
-metadata = Base.metadata
-
-#place_amenity = Table('place_amenity', metadata,
-#                      Column('place_id', String(60),
-#                             ForeignKey('places.id'),
-#                             primary_key=True, nullable=False),
-#                      Column('amenity_id', String(60),
-#                             ForeignKey('amenities.id'),
-#                             primary_key=True, nullable=False))
-
 
 class Place(BaseModel, Base):
     """ Place inherits from BaseModel and Base
@@ -33,6 +23,8 @@ class Place(BaseModel, Base):
     price_by_night = Column(Integer, default=0, nullable=False)
     latitude = Column(Float)
     longitude = Column(Float)
+    user = relationship("User", back_populates="places")
+    cities = relationship("City", back_populates="places")
 #    reviews = relationship('Review', cascade="all, delete",
 #                           backref='place')
 #    amenities = relationship('Amenity', secondary='place_amenity',
