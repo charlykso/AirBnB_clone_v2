@@ -2,8 +2,10 @@
 """
 a script that starts a Flask web application
 and must be listening on 0.0.0.0, port 5000
-route / will display "Hello HBNB"
-route /hbnb displays "HBNB"
+routes : 
+		/ - will display "Hello HBNB"
+		/hbnb - displays "HBNB"
+		/c/<text> - display C followed by the value
 """
 
 from flask import Flask
@@ -24,6 +26,14 @@ def hbnb():
     display hbnb
     """
     return "HBNB"
+
+
+@app.route('/c/<text>')
+def c_text(text):
+    """
+    display custom text given
+    """
+    return "C {}".format(text.replace('_', ' '))
 
 
 if __name__ == "__main__":
