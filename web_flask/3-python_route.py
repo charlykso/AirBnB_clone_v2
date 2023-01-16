@@ -32,7 +32,8 @@ def hbnb():
 @app.route('/c/<text>')
 def c_text(text):
     """
-    display custom text given
+    display “C ”
+    followed by the value of the text variable
     """
     return "C {}".format(text.replace('_', ' '))
 
@@ -41,7 +42,8 @@ def c_text(text):
 @app.route('/python/<text>')
 def python_text(text="is cool"):
     """
-    display custom text given
+    display “Python ”,
+    followed by the value of the text variable
     """
     return "Python {}".format(text.replace('_', ' '))
 
