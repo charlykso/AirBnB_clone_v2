@@ -94,5 +94,13 @@ def html_fetch_states():
                            state_objs=state_objs)
 
 
+@app.teardown_appcontext
+def teardown_app(e):
+    '''
+    teardown app context
+    '''
+    storage.close()
+
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
