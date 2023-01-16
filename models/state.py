@@ -38,13 +38,3 @@ class State(BaseModel, Base):
                 if city.state_id == self.id:
                     city_list.append(city)
             return city_list
-
-    def __init__(self, *args, **kwargs):
-        """ Initialises the State class
-
-            Args:
-                args: Not used
-                kwargs: dictionary format of the class
-
-        """
-        super().__init__(*args, **kwargs)
