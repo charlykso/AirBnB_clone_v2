@@ -29,7 +29,7 @@ def hbnb():
 
 
 @app.route('/c/<text>', strict_slashes=False)
-def c_text(text):
+def c_text(text="text"):
     """
     display custom text given
     """
