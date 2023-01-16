@@ -8,7 +8,8 @@ routes :
 		/c/<text> - display C followed by the value
 		/python/<text> - display python followed by the value
 		/number/<n> -
-		/number_template/<n> - 
+		/number_template/<n> -
+		/number_odd_or_even/<n>: display HTML page; display odd/even info
 """
 
 from flask import Flask, render_template
@@ -76,7 +77,9 @@ def number_template(n):
     display a HTML page only if n is an integer
     H1 tag: “Number: n is even|odd” inside the tag BODY
     """
-    return render_template('6-number_odd_or_even.html', n=n)
+    odd_or_even = "even" if (n % 2 == 0) else "odd"
+    return render_template('6-number_odd_or_even.html',
+                           n=n, odd_or_even=odd_or_even)
 
 
 if __name__ == "__main__":
