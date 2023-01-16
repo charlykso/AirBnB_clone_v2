@@ -30,5 +30,18 @@ def teardown_app(e):
     storage.close()
 
 
+@app.route('/cities_by_states', strict_slashes=False)
+def cities_by_state():
+    '''
+    Lists cities by the state
+    it is in
+    '''
+    state_dict = storage.all('State')
+    state_list = []
+    for state in state_dict.values():
+        state_list.append(state)
+    return render_template('8-cities_by_states.html', state_list=state_list)
+
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
