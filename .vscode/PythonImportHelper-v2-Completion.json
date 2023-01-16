@@ -1715,7 +1715,7 @@
         "kind": 2,
         "importPath": "web_flask.2-c_route",
         "description": "web_flask.2-c_route",
-        "peekOfCode": "def hbnb():\n    \"\"\"\n    display hbnb\n    \"\"\"\n    return \"HBNB\"\n@app.route('/c/<text>')\ndef c_text(text):\n    \"\"\"\n    display custom text given\n    \"\"\"",
+        "peekOfCode": "def hbnb():\n    \"\"\"\n    display hbnb\n    \"\"\"\n    return \"HBNB\"\n@app.route('/c/<text>', strict_slashes=False)\ndef c_text(text):\n    \"\"\"\n    display custom text given\n    \"\"\"",
         "detail": "web_flask.2-c_route",
         "documentation": {}
     },
