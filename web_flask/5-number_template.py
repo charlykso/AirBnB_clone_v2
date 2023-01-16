@@ -7,11 +7,13 @@ routes :
 		/hbnb - displays "HBNB"
 		/c/<text> - display C followed by the value
 		/python/<text> - display python followed by the value
-		/number/<n> - 
+		/number/<n> -
+		/number_template/<n> - 
 """
 
-from flask import Flask
+from flask import Flask, render_template
 app = Flask(__name__)
+app.url_map.strict_slashes = False
 
 
 @app.route('/')
@@ -59,6 +61,14 @@ def text_if_int(n):
     return "{:d} is a number".format(n)
 
 
+@app.route('/number_template/<int:n>')
+def number_template(n):
+    """
+    display a HTML page only if n is an integer
+    H1 tag: “Number: n” inside the tag BODY
+    """
+    return render_template('5-number.html', n=n)
+
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
-    app.url_map.strict_slashes = False
