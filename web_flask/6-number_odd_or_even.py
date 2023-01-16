@@ -2,7 +2,7 @@
 """
 a script that starts a Flask web application
 and must be listening on 0.0.0.0, port 5000
-routes : 
+routes:
 		/ - will display "Hello HBNB"
 		/hbnb - displays "HBNB"
 		/c/<text> - display C followed by the value

@@ -2,7 +2,7 @@
 """
 a script that starts a Flask web application
 and must be listening on 0.0.0.0, port 5000
-routes : 
+routes:
 		/states_list -   display HTML and state info from storage;
 		/cities_by_state - displays the states and cities in them
 		/states/<id> - displays a particular city based on the id
