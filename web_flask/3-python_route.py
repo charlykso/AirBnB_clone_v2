@@ -30,14 +30,15 @@ def hbnb():
 
 
 @app.route('/c/<text>')
-def c_text(text='text'):
+def c_text(text):
     """
     display custom text given
     """
     return "C {}".format(text.replace('_', ' '))
 
 @app.route('/python/<text>')
-def python_text(text='text'):
+@app.route('/Python/')
+def python_text(text="is cool"):
     """
     display custom text given
     """
